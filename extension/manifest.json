@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Little Helium",
+  "version": "0.1.0",
+  "description": "Little Arc for Helium: URL bar and expand-to-main-window for app windows.",
+  "permissions": ["tabs", "storage", "search"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
