@@ -16,6 +16,6 @@ shim/build.sh
 open -a "$HOME/Applications/Little Helium.app" --args --make-default
 ```
 
-Then load `extension/` in `helium://extensions` → Developer mode → Load unpacked.
-
 macOS asks to confirm the default browser change. To undo, pick Helium again in System Settings → Desktop & Dock → Default web browser.
+
+Then load `extension/` in `helium://extensions` → Developer mode → Load unpacked.
