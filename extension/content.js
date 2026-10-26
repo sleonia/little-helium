@@ -18,8 +18,9 @@
   `);
 
   function closeBar() {
-    bar?.remove();
+    const current = bar;
     bar = null;
+    current?.remove();
   }
 
   function openBar() {
